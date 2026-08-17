@@ -1,0 +1,125 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 290px;
+    flex-direction: column;
+    width: 580px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.hero-title {
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+.hero-text {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: var(--header-color);
+    padding-bottom: 26px;
+    margin-top: 0px;
+}
+
+.find_partner {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    background-color: var(--hero_butn);
+    padding: 13px;
+    color: var(--hero_text);
+    height: 43px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border: none;
+}
+
+.partners {
+    background-color: var(--hero_text);
+    text-align: center;
+    justify-items: center;
+    height: 435px;
+    padding-top: 46px;
+}
+
+.partners h2 {
+    margin: 0px 22px 29px 22px;
+}
+
+.grid_partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.partner {
+    justify-self: center;
+    width: 194px;
+    height: 201px;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.partner2 {
+    justify-self: center;
+    width: 232px;
+    height: 235px;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.partner3 {
+    justify-self: center;
+    width: 211px;
+    height: 204px;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.partner4 {
+    justify-self: center;
+    width: 194px;
+    height: 206px;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.partners h3 {
+    font-size: 14px;
+    margin: 13px;
+}
+
+.partners p {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+.partners-text {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--font-roboto);
+    color: var(--partners-text);
+}
+
+
+.partners_but {
+    background: none;
+    border: 2px var(--partners_butn) solid;
+    color: var(--partners_butn);
+    height: 40px;
+    width: 195px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    margin-top: 50px;
+}

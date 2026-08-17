@@ -1,0 +1,27 @@
+:root {
+    --hero_text: white;
+    --hero_butn: #FF4E50;
+    --partners_butn: #FFA507;
+    --guides_butn: #4E73DB;
+    --header-color: white;
+    --partnes-text: #666666;
+
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: var(--font-montserrat);
+}
+
+h3 {
+    font-family: var(--font-montserrat);
+}
+
+p {
+    font-family: var(--font-roboto);
+}

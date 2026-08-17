@@ -1,0 +1,53 @@
+header {
+    background-image: url(../images/header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    color: var(--hero_text);
+    height: 702px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 190px;
+    height: 39px;
+}
+
+.header_butns {
+    display: flex;
+}
+
+.logo {
+    color: var(--hero_text);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    height: 24px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.header-btn {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-color);
+    padding-right: 9px;
+    margin: auto 0;
+    background: none;
+    border: none;
+}
+
+.sign_up {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-color);
+    background: none;
+    border: 2px solid var(--header-color);
+    border-radius: 20px;
+    margin: auto 0;
+    padding: 5px;
+}
